@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}

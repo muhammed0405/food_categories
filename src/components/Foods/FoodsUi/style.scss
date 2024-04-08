@@ -1,0 +1,33 @@
+.mealCard{
+  background: antiquewhite;
+  width: 260px;
+  height: 350px;
+  transition: all 0.5s;
+  padding: 30px 5px  5px ;
+  position: relative;
+  -webkit-box-shadow: -16px 17px 7px -6px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: -16px 17px 7px -6px rgba(0, 0, 0, 0.45);
+  box-shadow: -16px 17px 7px -6px rgba(0, 0, 0, 0.45);
+
+  img {
+    width: 70%;
+    object-fit: contain;
+    margin: 0 0 10px 0 ;
+  }
+
+  &:hover {
+    transform: scale(1.05); // Scale the hovered element
+    z-index: 1;
+  }
+
+  .foods--count{
+
+    display: flex;
+    align-items: center;
+    gap: 10px 30px;
+    position: absolute;
+    bottom: 5px;
+    left: 30px;
+  }
+}
+

@@ -1,0 +1,32 @@
+.home {
+  padding: 70px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px 0 ;
+  .home--categories {
+    background: antiquewhite;
+    width: 300px; // 40px accounts for padding
+    height: 270px;
+    transition: all 0.5s;
+
+    -webkit-box-shadow: -16px 17px 7px -6px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: -16px 17px 7px -6px rgba(0, 0, 0, 0.45);
+    box-shadow: -16px 17px 7px -6px rgba(0, 0, 0, 0.45);
+
+    img {
+      width: 100%;
+      margin: 0 0 20px 0;
+      object-fit: contain;
+    }
+
+    &:hover {
+      transform: scale(1.05); // Scale the hovered element
+      z-index: 1;
+    }
+
+  }
+
+
+}

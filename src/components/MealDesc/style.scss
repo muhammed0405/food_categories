@@ -1,0 +1,62 @@
+.mealDesc {
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .mealDesc--title {
+        width: 400px;
+
+        h4 {
+            text-align: start;
+        }
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+    .ingredients {
+        h4 {
+            text-align: start;
+        }
+
+        &--title {
+            display: flex;
+            gap: 0 90px;
+        }
+        .ingredient {
+            display: flex;
+            justify-content: space-between;
+            gap: 0 40px;
+            border-bottom: 2px solid black;
+
+            &--name {
+                align-items: center;
+            }
+
+            &--measure {
+                width: 150px;
+                display: flex;
+                justify-content: start;
+            }
+        }
+    }
+
+    .instruction {
+        margin: 100px 0;
+    }
+    .video-container {
+        margin-top: 50px;
+        width: 600px;
+        height: 400px;
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

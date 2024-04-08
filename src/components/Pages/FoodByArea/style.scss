@@ -1,0 +1,27 @@
+.foodByArea {
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0 0 0;
+    gap: 10px 20px;
+
+    button {
+      width: 100px;
+      border: none;
+      background: #4ac964;
+      border-radius: 30px;
+      padding: 5px 0;
+      transition: 0.5s;
+    }
+  }
+
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .areaTittle{
+    margin: 40px 0 ;
+  }
+}

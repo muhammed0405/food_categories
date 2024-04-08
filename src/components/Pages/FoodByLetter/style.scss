@@ -1,0 +1,40 @@
+.FoodByLetter {
+    .FoodByLetter--title {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px 0;
+
+        #letter_receive_inp {
+            width: 100px;
+            height: 30px;
+            border-radius: 50px;
+            border: 1px solid black;
+            padding: 0 20px;
+            outline: none;
+        }
+    }
+
+    .buttons {
+        margin: 0 auto;
+        max-width: 800px !important;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        button {
+            background: #f1a0a0;
+            border: 1px solid #f1a0a0;
+            border-radius: 20px;
+            padding: 5px 20px;
+            transition: 0.5s;
+        }
+
+        button:hover {
+            scale: 1.2;
+        }
+    }
+
+    h3 {
+    }
+}
